@@ -1,15 +1,12 @@
-import Head from 'next/head';
+import React from 'react';
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <>
-      <Head>
-        <title>26tails.shop - Home</title>
-      </Head>
-      <main>
-        <h1>Welcome to 26tails.shop 🐾</h1>
-        <p>ร้านขายอาหารแมวที่อบอุ่นที่สุดในโลกออนไลน์</p>
-      </main>
-    </>
+    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <h1>Welcome to 26tails.shop</h1>
+      <p>This is your TypeScript-powered Next.js storefront for your cat food brand.</p>
+    </div>
   );
-}
+};
+
+export default HomePage;
