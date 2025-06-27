@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
       <h1>About 26tails.shop</h1>
       <p>
-        26tails.shop is a lovingly crafted online store for rescued cats.
+        26tails.shop is a lovingly crafted online store for rescued cats. <br />
         We offer premium cat food that helps support 26 adorable rescued companions!
       </p>
       <p>
@@ -13,4 +13,6 @@ export default function AboutPage() {
       </p>
     </div>
   );
-}Add About page
+}
+
+// Add About page
